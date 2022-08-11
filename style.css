@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap');
 *{
     box-sizing: border-box;
 }
@@ -11,7 +12,7 @@ body{
     margin-top: 80px;
 }
 .first{
-    font-family:  sans-serif;
+    font-family: 'Playfair Display', serif;
     font-size: 50px;
     margin-bottom: 0px;
     color: rgb(119, 120, 122);
@@ -83,7 +84,6 @@ p{
     }
 
     .first{
-        font-family:  sans-serif;
         font-size: 25px;
         margin-bottom: 0px;
         color: rgb(119, 120, 122);
