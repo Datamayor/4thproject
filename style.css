@@ -1,0 +1,77 @@
+body{
+    justify-content: center;
+    text-align: center ;
+    box-sizing: border-box;
+}
+
+.logo{
+    margin-top: 80px;
+}
+.first{
+    font-family:  sans-serif;
+    font-size: 50px;
+    margin-bottom: 0px;
+    color: rgb(119, 120, 122);
+}
+
+.soon{
+    color: black;
+}
+
+.second{
+    font-size: 20px;
+}
+
+#email{
+    border-radius: 50px;
+    padding: 12px;
+    width: 470px;
+    border-color:  rgb(227, 230, 236);
+
+}
+.but{
+    border-radius: 50px;
+    padding: 12px;
+    width: 150px;
+    background-color: rgb(84, 174, 254);
+    color: white;
+    border: none;
+    box-shadow:1px 5px rgb(227, 227, 246);
+}
+
+.body{
+    width: 800px;
+    margin-top: 40px;
+}
+
+.foot{
+    width: 15px;
+    height: 15px;
+    padding: 4px;
+    margin-left: 7px;
+    margin-right: 7px;
+    border: 1px solid rgb(213, 213, 230);
+    border-radius: 50px;
+}
+p{
+    color: rgb(119, 120, 122);
+
+}
+@media  only screen and  (max-width: 690px) {
+    .label{
+       flex-wrap: wrap; 
+    }
+    #email{
+         width: 280px;
+         margin-bottom: 4px
+    }
+
+    .but{
+         width: 300px;
+         box-shadow: none;
+    }
+    
+    .body{
+        width: 500px;
+    }
+}
